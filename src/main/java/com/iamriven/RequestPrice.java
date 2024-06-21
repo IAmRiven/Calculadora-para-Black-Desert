@@ -24,29 +24,4 @@ public class RequestPrice {
         }
         return precio;
     }
-    // public static float recuperarPrecio(int id, int nivel) {
-    // float precio = 0;
-    // try {
-    // // Hacer conexión
-    // URL url = new URL("https://api.arsha.io/v1/na/price?id=" + id + "&sid=" +
-    // nivel + "&lang=en");
-    // HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-    // conn.setRequestMethod("GET");
-    // conn.connect();
-
-    // StringBuilder formar_precio = new StringBuilder();
-    // Scanner sc = new Scanner(url.openStream());
-    // while (sc.hasNext()) {
-    // formar_precio.append(sc.nextLine());
-    // }
-    // sc.close();
-    // JSONObject item = new JSONObject(formar_precio.toString());
-    // precio = item.getFloat("basePrice");
-
-    // } catch (Exception e) {
-    // e.printStackTrace();
-    // }
-    // return precio;
-
-    // }
 }
