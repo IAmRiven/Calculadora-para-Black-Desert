@@ -5,7 +5,7 @@
     <class>com.iamriven.Equipamientomejorado</class>
     <class>com.iamriven.Equipamiento</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:D:\Escritorio antiguo\Utilidades-para-BDO-2024\calculadora-tirada-bdo\src\main\resources\db\data.db"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:C:\Users\Juan Antonio\Desktop\Calculadora para Black Desert\src\main\resources\db\data.db"/>
       <property name="javax.persistence.jdbc.user" value=""/>
       <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
       <property name="javax.persistence.jdbc.password" value=""/>
